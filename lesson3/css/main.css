@@ -1,0 +1,164 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+	color: #201b2d;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+p {
+	line-height: 1.65em;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.header {
+	background: rgb(78,191,254);
+	background: -moz-linear-gradient(140deg, rgba(78,191,254,1) 0%, rgba(55,143,217,1) 100%);
+	background: -webkit-linear-gradient(140deg, rgba(78,191,254,1) 0%, rgba(55,143,217,1) 100%);
+	background: linear-gradient(140deg, rgba(78,191,254,1) 0%, rgba(55,143,217,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4ebffe",endColorstr="#378fd9",GradientType=1);
+	padding-top: 62px;
+	padding-bottom: 65px;
+	color: #fff;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.offer {
+	margin-top: 147px;
+	width: 560px;
+}
+
+.title {
+	font-size: 37px;
+	line-height: 49px;
+	width: 570px;
+	
+}
+.title span {
+	font-size: 59px;
+	line-height: 73px;
+}
+
+.intro {
+	margin-top: 30px;
+	margin-bottom: 40px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	width: 405px;	
+}
+
+.btn {
+	background: #ffd429;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	font-size: 15px;
+	color: #2e2a1b;
+	display: block;
+	width: 221px;
+	padding: 22px 0;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+.btn:hover {
+	background: #dfba26;
+}
+
+.travel {
+	margin-top: 18px;
+}
+
+.learn {
+	padding: 108px 0 119px 0;
+	text-align: center;
+}
+
+.section-title {
+	font-size: 30px;
+	text-align: center;
+}
+
+.purposes {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 70px;
+}
+
+.purpose {
+	width: 280px;
+	background: url('../img/iconsTime.jpg') no-repeat center top;
+	padding-top: 99px;
+}
+.purpose-title {
+	font-size: 19px;
+}
+
+.purpose-text {
+	margin-top: 10px;
+}
+
+.purpose-two {
+	background: url('../img/iconsBeach.jpg') no-repeat center top;
+}
+
+.purpose-three {
+	background: url('../img/iconsLaunch.jpg') no-repeat center top;
+	width: 300px;
+}
+
+.mail {
+	background: #ecf3f8;
+	padding: 104px 0 102px 0;
+}
+
+.form {
+ 	margin-top: 57px;
+}
+
+.input {
+	width: 343px;
+	height: 48px;
+	border: 1px solid #bbbbbb;
+	border-radius: 3px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	padding-left: 25px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+
+.btn-form {
+	border: none;
+	cursor: pointer;
+	width: 343px;
+	margin: 0 auto;
+}
+
+.footer {
+	padding: 63px 0;
+	background: #164d7a;
+	
+}
+.credits {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+}
