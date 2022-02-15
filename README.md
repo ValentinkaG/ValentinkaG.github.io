@@ -5,3 +5,5 @@
 [Lesson 2](https://valentinkag.github.io/lesson2/) - wayup lesson2
 
 [Lesson 3](https://valentinkag.github.io/lesson3/) - wayup lesson3
+
+[algoritmika](https://valentinkag.github.io/algoritmika) - algoritmika
